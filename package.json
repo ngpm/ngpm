@@ -1,0 +1,36 @@
+{
+  "name": "ngpm",
+  "version": "0.0.0",
+  "description": "Angular Package Manager",
+  "main": "ngpm.js",
+  "bin": {
+    "ngpm": "ngpm.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+      "js-beautify": "*",
+      "async": "*",
+      "checksum": "*",
+      "lodash": "*",
+      "q": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngpm/ngpm.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "package",
+    "manager",
+    "npm"
+  ],
+  "author": "Derek Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngpm/ngpm/issues"
+  }
+}
